@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-     "build": "vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tri13072005/tringuyen.github.io.git"
@@ -27,5 +26,8 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.6",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
   }
 }
